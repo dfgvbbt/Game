@@ -1,3 +1,4 @@
+getgenv().PotatoPC = true
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/banbuskox/dfhtyxvzexrxgfdzgzfdvfdz/main/ckmhjvskfkmsStratFun2", true))() 
 TDS:Loadout("Ace Pilot", "Military Base", "nil", "nil", "nil") 
 TDS:Map("Autumn Falling", true, "Hardcore")
