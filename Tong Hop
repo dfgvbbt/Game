@@ -20,6 +20,8 @@ elseif PlacId == 654732683 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
 elseif PlacId == 8396586868 then
 	loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+elseif PlacId == 189707 then
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yarik312/DarkWare/main/MainLoader"), true))()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
