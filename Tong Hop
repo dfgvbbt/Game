@@ -8,19 +8,19 @@ elseif PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 t
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 elseif PlaceId == 537413528 then 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GOJOsatoru1122/SWPRDHUBBUILDABOAT/main/README.md"))()
-elseif PlacId == 1458767429 then 
+elseif PlaceId == 1458767429 then 
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/Anime-Battle-Arena.lua")()
-elseif PlacId == 5670292785 then 
+elseif PlaceId == 5670292785 then 
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/MrJack-Game-List/main/Undead%20Defense%20Tycoon%20-%205670292785.lua")()
-elseif PlacId == 7305309231 then 
+elseif PlaceId == 7305309231 then 
 	loadstring(game:HttpGet(('https://dosage.wtf/files/loader.lua'),true))()
-elseif PlacId == 3851622790 then 
+elseif PlaceId == 3851622790 then 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
-elseif PlacId == 654732683 then 
+elseif PlaceId == 654732683 then 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
-elseif PlacId == 8396586868 then
+elseif PlaceId == 8396586868 then
 	loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
-elseif PlacId == 189707 then
+elseif PlaceId == 189707 then
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yarik312/DarkWare/main/MainLoader"), true))()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
