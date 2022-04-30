@@ -12,4 +12,5 @@ elseif PlacId == 1458767429 then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/Anime-Battle-Arena.lua")()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	warn("BRUH,THIS GAME NOT SUPPORTED")
 end
