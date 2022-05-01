@@ -14,7 +14,7 @@ elseif PlaceId == 5670292785 then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/MrJack-Game-List/main/Undead%20Defense%20Tycoon%20-%205670292785.lua")()
 elseif PlaceId == 7305309231 then 
 	loadstring(game:HttpGet(('https://dosage.wtf/files/loader.lua'),true))()
-elseif PlaceId == 3851622790 then 
+elseif PlaceId == 3851622790 or PlaceId == 4620170611 then 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
 elseif PlaceId == 654732683 then 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
