@@ -22,6 +22,8 @@ elseif PlaceId == 8396586868 then
 	loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
 elseif PlaceId == 189707 then
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yarik312/DarkWare/main/MainLoader"), true))()
+elseif PlaceId == 5732973455 then
+	loadstring(game:HttpGet("https://pastebin.com/raw/jDqD8h8J"))()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
