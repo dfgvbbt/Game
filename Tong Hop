@@ -4,6 +4,9 @@ end
 if control == true then
  loadstring(game:HttpGet("https://controlc.com/e631b844"))()
 end
+if gamepass == true then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/GamePass"))()
+end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 local PlaceId = game.PlaceId
