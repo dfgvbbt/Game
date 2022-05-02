@@ -30,6 +30,7 @@ elseif PlaceId == 5732973455 then
 elseif PlaceId == 7180042682 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/GamePass"))()
 else
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
 	print("BRUH,THIS GAME NOT SUPPORTED")
 	print(game.PlaceId .. " is place id and ".. game.Players.LocalPlayer.Name .." so lovely and cute :3")
