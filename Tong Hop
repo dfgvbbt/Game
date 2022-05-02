@@ -1,8 +1,8 @@
 if admin then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 end
 if control then
-loadstring(game:HttpGet("https://controlc.com/e631b844"))()
+ loadstring(game:HttpGet("https://controlc.com/e631b844"))()
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
