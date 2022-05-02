@@ -1,18 +1,4 @@
-if admin == true then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
-end
-
-if control == true then
-  loadstring(game:HttpGet("https://controlc.com/e631b844"))()
-end
-
-if gamepass == true then
- loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/GamePass"))()
-end
-
-if jack == true then
-  loadstring(game:HttpGet("https://thedragonslayer2.github.io"))()
-end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Fe"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 local PlaceId = game.PlaceId
