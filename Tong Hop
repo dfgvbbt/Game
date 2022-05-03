@@ -1,5 +1,10 @@
-local PlaceId = game.PlaceId
+if fe == true then
+	PlaceId:Destroy
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/fe"))()
+end
 
+local PlaceId = game.PlaceId
+wait(0.1)
 if PlaceId == 6284583030 then 
         loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/MUKUROHUB/main/psxMukuro.lua")()
 elseif PlaceId == 4520749081 or PlaceId == 6381829480 or PlaceId == 5931540094 then 
@@ -33,7 +38,4 @@ else
 	print(game.PlaceId .. " is place id and ".. game.Players.LocalPlayer.Name .." so lovely and cute :3")
 end
 
-if fe == true then
-	PlaceId:Destroy
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/fe"))()
-end
+
