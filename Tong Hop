@@ -34,5 +34,6 @@ else
 end
 
 if fe == true then
+	PlaceId:Destroy
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/fe"))()
 end
