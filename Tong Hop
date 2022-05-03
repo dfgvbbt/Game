@@ -32,3 +32,7 @@ else
 	print("BRUH,THIS GAME NOT SUPPORTED")
 	print(game.PlaceId .. " is place id and ".. game.Players.LocalPlayer.Name .." so lovely and cute :3")
 end
+
+if fe == true then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/fe"))()
+end
