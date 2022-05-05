@@ -26,6 +26,8 @@ elseif PlaceId == 5732973455 then
 	loadstring(game:HttpGet("https://pastebin.com/raw/jDqD8h8J"))()
 elseif PlaceId == 7180042682 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/GamePass"))()
+elseif PlaceId == 5346891762 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Bridge%20worm"))()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
