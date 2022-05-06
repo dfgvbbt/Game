@@ -35,4 +35,6 @@ else
 	print(game.PlaceId .. " is place id and ".. game.Players.LocalPlayer.Name .." so lovely and cute :3")
 end
 
-
+if Fe then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Fe"))()
+end
