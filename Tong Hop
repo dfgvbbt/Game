@@ -33,6 +33,8 @@ elseif PlaceId == 9203864304 or PlaceId == 9312552871 then
 	_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
 	--Themes: Light, Dark, Mocha, Aqua and Jester
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
+elseif PlaceID == 9281034297 then
+	loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
