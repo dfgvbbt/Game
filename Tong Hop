@@ -28,6 +28,11 @@ elseif PlaceId == 7180042682 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/GamePass"))()
 elseif PlaceId == 5346891762 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Bridge%20worm"))()
+elseif PlaceId == 9203864304 then
+	_G.RedGUI = false
+	_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
+	--Themes: Light, Dark, Mocha, Aqua and Jester
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
