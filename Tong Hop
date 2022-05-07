@@ -35,6 +35,7 @@ elseif PlaceId == 9203864304 or PlaceId == 9312552871 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
 elseif PlaceId == 9281034297 then
 	loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+end
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
