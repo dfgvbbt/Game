@@ -42,6 +42,10 @@ else
 	print(game.PlaceId .. " is place id and ".. game.Players.LocalPlayer.Name .." so lovely and cute :3")
 end
 
-if Fe == true then
+spawn(function()
+	while Fe == true do
+		if not Fe then break end
+	end
+	if Fe == true then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Fe"))()
-end
+end)
