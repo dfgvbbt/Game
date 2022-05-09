@@ -32,6 +32,8 @@ elseif PlaceId == 6677985923 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Millionaire%20Empire%20Tycoon"))()
 elseif PlaceId == 3056526277 then
 	loadstring(game:HttpGet("https://pastebin.com/raw/kkgZv9Sp"))()
+elseif PlaceId == 4325400580 then
+	loadstring(game:HttpGet("https://pastebin.com/raw/ruC0HALL"))()
 elseif PlaceId == 4390380541 then
 	loadstring(game:HttpGet("https://pastebin.com/raw/Q5GNs6m9"))()
 elseif PlaceId == 9203864304 or PlaceId == 9312552871 then
