@@ -46,7 +46,7 @@ elseif PlaceId == 9281034297 then
 elseif PlaceId == 8523408215 then
 	loadstring(game:HttpGet"https://pastebin.com/raw/BHYs12fD")()
 elseif PlaceId == 3964975083 then
-	loadstring(game:HttpGet"https://controlc.com/b00f02d3")()
+	loadstring(game:HttpGet"https://github.com/dfgvbbt/another/raw/main/Fun%20admin")()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
