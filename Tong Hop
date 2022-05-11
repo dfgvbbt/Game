@@ -48,7 +48,7 @@ elseif PlaceId == 8523408215 then
 elseif PlaceId == 3964975083 then
 	loadstring(game:HttpGet"https://github.com/dfgvbbt/another/raw/main/Fun%20admin")()
 elseif PlaceId == 914010731 then
-	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+	loadstring(game:HttpGetAsync(("https://gist.githubusercontent.com/z4gs/5b71b8d430eb3582f895dfcfafc1fbfc/raw/db85b2a57a5368a789ec0772cad6233a99535823/Ro-Ghoul")))()
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
