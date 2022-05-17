@@ -48,6 +48,8 @@ elseif PlaceId == 914010731 then
 	Ro_Ghoul = true
 elseif PlaceId == 9049840490 then
 	Sonic_Speed_Simulator = true
+elseif PlaceId == 9557222597 then
+	Clarks_CICAVERSE_Event = true
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
@@ -156,6 +158,15 @@ elseif Sonic_Speed_Simulator then
 	Script_Have_Link_Key = true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
 	Key = ("https://panda-project.tk/")
+	
+	
+elseif Clarks_CICAVERSE_Event then
+	_G.Credits = "discord.gg/rips"
+	_G.RedGUI = false
+	_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
+	--Themes: Light, Dark, Mocha, Aqua and Jester
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/ClarksCICAVERSE.lua"))()
 
 	
 end
