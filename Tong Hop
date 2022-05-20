@@ -18,7 +18,7 @@ elseif PlaceId == 3851622790 or PlaceId == 4620170611 then
 	Break_in = true
 elseif PlaceId == 654732683 then 
 	Car_Crusher2 = true
-elseif PlaceId == 8396586868 then
+elseif PlaceId == 8396586868 or PlaceId == 9264222904 or PlaceId == 9432106399 or PlaceId == 9572329421 then
 	A_One_Piece_Game = true
 elseif PlaceId == 189707 then
 	Natural_Disaster_Survival = true
