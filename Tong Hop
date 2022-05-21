@@ -157,7 +157,7 @@ elseif Ro_Ghoul then
 elseif Sonic_Speed_Simulator then
 	Script_Have_Link_Key = true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
-	Key = ("https://panda-project.tk/")
+	Key_Link = ("https://panda-project.tk/")
 	
 	
 elseif Clarks_CICAVERSE_Event then
@@ -168,4 +168,4 @@ end
 
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Scripts workking!", Color = Color3.new(0, 191, 255), TextSize = 18, })
-if Script_Have_Link_Key then setclipboard (Key) wait(0.1) game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Link get key for this script is (" .. Key .. ") and was coppy."), Color = Color3.new(0, 191, 255), TextSize = 18, }) end
+if Script_Have_Link_Key then setclipboard (Key_Link) wait(0.1) game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Link get key for this script is (" .. Key_Link .. ") and was coppy."), Color = Color3.new(0, 191, 255), TextSize = 18, }) end
