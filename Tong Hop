@@ -168,4 +168,5 @@ end
 
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Scripts workking!", Color = Color3.new(0, 191, 255), TextSize = 18, })
-if Script_Have_Link_Key then setclipboard (Key_Link) wait(0.1) game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Link get key for this script is (" .. Key_Link .. ") and was coppy."), Color = Color3.new(0, 191, 255), TextSize = 18, }) end
+if Script_Have_Link_Key and Key_Link == string then setclipboard (Key_Link) wait(0.1) game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Link get key for this script is (" .. Key_Link .. ") and was coppy."), Color = Color3.new(0, 191, 255), TextSize = 18, })
+elseif Script_Have_Link_Key == false then game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]:Script have key link but get in this script because its not default."), Color = Color3.new(0, 191, 255), TextSize = 18, }) end
