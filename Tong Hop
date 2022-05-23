@@ -155,8 +155,8 @@ elseif Ro_Ghoul then
 	
 	
 elseif Sonic_Speed_Simulator then
-	Script_Have_Link_Key = 1
-	Key_Link = ("https://panda-project.tk/")
+	Key = { [1] = "https://panda-project.tk/",}
+	for i, v in pairs(Key) do if i == 1 then setclipboard (v) wait(0.1) game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Link get key for this script is (" .. v .. ") and was coppy."), Color = Color3.new(0, 191, 255), TextSize = 18, }) elseif i == 2 or Key == 2 then game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Script have link key but get it's in that script."), Color = Color3.new(0, 191, 255), TextSize = 18, }) elseif i == 0 or Key == 0 then break end end
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
 
 	
@@ -168,4 +168,7 @@ end
 
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Scripts workking!", Color = Color3.new(0, 191, 255), TextSize = 18, })
-if Script_Have_Link_Key == 1 then setclipboard (Key_Link) wait(0.1) game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Link get key for this script is (" .. Key_Link .. ") and was coppy."), Color = Color3.new(0, 191, 255), TextSize = 18, }) elseif Script_Have_Link_Key == 2 then game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Script have link key but get it's in that script."), Color = Color3.new(0, 191, 255), TextSize = 18, }) end
+
+[[
+for i, v in pairs(Key) do if i == 1 then setclipboard (v) wait(0.1) game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Link get key for this script is (" .. v .. ") and was coppy."), Color = Color3.new(0, 191, 255), TextSize = 18, }) elseif i == 2 or Key == 2 then game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Script have link key but get it's in that script."), Color = Color3.new(0, 191, 255), TextSize = 18, }) elseif i == 0 or Key == 0 then break end end
+]]
