@@ -1,3 +1,4 @@
+--https://www.roblox.com/asset/?version=VERSION&id=ID
 repeat wait() until game:IsLoaded()
 getgenv().IsMultiStrat = true
 
