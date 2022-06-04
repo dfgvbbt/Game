@@ -155,8 +155,7 @@ elseif Ro_Ghoul then
 	
 	
 elseif Sonic_Speed_Simulator then
-	Key = true
-	Key_Info = { [1] = "https://panda-project.tk/",}
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: This script have advertisement (https://panda-project.tk/) and was coppy!", Color = Color3.new(0, 191, 255), TextSize = 18, }) wait(0.02) setclipboard("https://panda-project.tk/")
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
 
 	
@@ -168,5 +167,3 @@ end
 
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Scripts workking!", Color = Color3.new(0, 191, 255), TextSize = 18, })
-
-if Key == true then  for i, v in pairs(Key_Info) do if i == 1 then setclipboard (v) wait(0.1) game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Link get key for this script is (" .. v .. ") and was coppy."), Color = Color3.new(0, 191, 255), TextSize = 18, }) elseif i == 2 or Key == 2 then game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ("[Script Sytem]: Script have link key but get it's in that script."), Color = Color3.new(0, 191, 255), TextSize = 18, }) elseif i == 0 or Key == 0 then break end end
