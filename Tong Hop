@@ -52,6 +52,8 @@ elseif PlaceId == 9557222597 then
 	Clarks_CICAVERSE_Event = true
 elseif PlaceId == 8619263259 then
 	Critical_Legends = true
+elseif PlaceId == 9508087919 then
+	Apeirophobia = true
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	warn("BRUH,THIS GAME NOT SUPPORTED")
@@ -169,5 +171,8 @@ elseif Critical_Legends then
 	loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
 end
 
+elseif Apeirophobia then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/ape'))()
+end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Scripts workking!", Color = Color3.new(0, 191, 255), TextSize = 18, })
