@@ -56,8 +56,8 @@ elseif PlaceId == 9508087919 then
 	Apeirophobia = true
 else
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
-	warn("BRUH,THIS GAME NOT SUPPORTED")
-	print("BRUH,THIS GAME NOT SUPPORTED")
+	warn("BRUH,THIS GAME NOT IN LIST")
+	print("BRUH,THIS GAME NOT IN LIST")
 	print(game.PlaceId .. " is place id and ".. game.Players.LocalPlayer.Name .." so lovely and cute :3")
 end
 --------------------------------------------------------------------------------------------------------------------------
