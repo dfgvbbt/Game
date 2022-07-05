@@ -54,6 +54,8 @@ elseif PlaceId == 8619263259 then
 	Critical_Legends = true
 elseif PlaceId == 9508087919 then
 	Apeirophobia = true
+elseif PlaceId == 4410049285 then
+	Driving_Simulator = true
 else
 	--do if game not in the list
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '[Script List]: Sorry Game Not In This List,so we are executing fates admin :)', Color = Color3.new(255, 255, 255), TextSize = 18, })
@@ -173,6 +175,9 @@ end
 
 elseif Apeirophobia then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/ape'))()
+end
+elseif Driving_Simulator then
+	loadstring(game:HttpGet("https://pastebin.com/raw/NHXHxHzY", true))()
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Scripts workking!", Color = Color3.new(0, 191, 255), TextSize = 18, })
