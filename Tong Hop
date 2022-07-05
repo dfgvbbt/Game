@@ -55,9 +55,8 @@ elseif PlaceId == 8619263259 then
 elseif PlaceId == 9508087919 then
 	Apeirophobia = true
 else
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '[Script List]: Sorry Game Not In This List,so we are executing fates admin :)', Color = Color3.new(255, 255, 255), TextSize = 18, })
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
-	warn("BRUH,THIS GAME NOT IN LIST")
-	print("BRUH,THIS GAME NOT IN LIST")
 	print(game.PlaceId .. " is place id and ".. game.Players.LocalPlayer.Name .." so lovely and cute :3")
 end
 --------------------------------------------------------------------------------------------------------------------------
