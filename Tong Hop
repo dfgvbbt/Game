@@ -58,6 +58,9 @@ elseif PlaceId == 4410049285 then
 	Driving_Simulator = true
 elseif PlaceId == 445664957 then
 	Parkour = true
+elseif PlaceId == 7720943627 then
+	Car_Crash_Test = true
+end
 else
 	--do if game not in the list
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '[Script List]: Sorry Game Not In This List,so we are executing fates admin :)', Color = Color3.new(255, 255, 255), TextSize = 18, })
@@ -185,6 +188,11 @@ end
 elseif Parkour then
 	getgenv().enabled = true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/Parkour-Bag-ESP/master/source.lua"))()
+end
+
+elseif Car_Crash_Test then
+	setclipboard(loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Car%20Crash%20Test"))())
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Was coppy script, please execute this from your exploiter!", Color = Color3.new(0, 191, 255), TextSize = 18, }
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Scripts workking!", Color = Color3.new(0, 191, 255), TextSize = 18, })
