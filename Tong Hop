@@ -1,6 +1,9 @@
 local PlaceId = game.PlaceId
 --Game id list
-if PlaceId == 6284583030 then 
+
+if PlaceId == 5427300831 then 
+	bruh = true
+elseif PlaceId == 6284583030 then
 	Pet_X = true
 elseif PlaceId == 4520749081 or PlaceId == 6381829480 or PlaceId == 5931540094 then 
 	King_Legacy = true
@@ -60,139 +63,137 @@ elseif PlaceId == 445664957 then
 	Parkour = true
 elseif PlaceId == 7720943627 then
 	Car_Crash_Test = true
-end
 else
 	--do if game not in the list
-	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '[Script List]: Sorry Game Not In This List,so we are executing fates admin :)', Color = Color3.new(255, 255, 255), TextSize = 18, })
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
-	print(game.PlaceId .. " is place id and ".. game.Players.LocalPlayer.Name .." so lovely and cute :3")
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ('Game {'..game.Name..'} / Id {'..game.PlaceId..',Version = '..game.PlaceVersion..'}. Is no script in list now!'), Color = Color3.new(255, 255, 255), TextSize = 18, })
 end
+
+
 --------------------------------------------------------------------------------------------------------------------------
 --Script list
 
 if Pet_X then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/MUKUROHUB/main/psxMukuro.lua")()
-	
-	
+
+
 elseif King_Legacy then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua"))()
-	
-	
+
+
 elseif Blox_Fruit then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
-	
-	
+
+
 elseif Babft then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
-	
-	
+
+
 elseif ABA then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/Anime-Battle-Arena.lua")()
-	
-	
+
+
 elseif Undead_Defense_Tycoon then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/MrJack-Game-List/main/Undead%20Defense%20Tycoon%20-%205670292785.lua")()
-	
-	
+
+
 elseif TaxiBoss then
 	loadstring(game:HttpGet(('https://dosage.wtf/files/loader.lua'),true))()
-	
-	
+
+
 elseif Break_in then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
-	
-	
+
+
 elseif Car_Crusher2 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
-	
-	
+
+
 elseif A_One_Piece_Game then
 	loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
-	
-	
+
+
 elseif Natural_Disaster_Survival then
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yarik312/DarkWare/main/MainLoader"), true))()
-	
-	
+
+
 elseif HOURS then
 	loadstring(game:HttpGet("https://pastebin.com/raw/jDqD8h8J"))()
-	
-	
+
+
 elseif Military_Tycoon then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/GamePass"))()
-	
-	
+
+
 elseif Bridge_Worm then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Bridge%20worm"))()
-	
-	
+
+
 elseif Millionaire_Empire_Tycoon then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Millionaire%20Empire%20Tycoon"))()
-	
-	
+
+
 elseif Build_and_Survive then
 	loadstring(game:HttpGet("https://pastebin.com/raw/kkgZv9Sp"))()
-	
-	
+
+
 elseif Army_Tycoon then
 	loadstring(game:HttpGet("https://pastebin.com/raw/ruC0HALL"))()
-	
-	
+
+
 elseif Rumble_Quest then
 	loadstring(game:HttpGet("https://pastebin.com/raw/Q5GNs6m9"))()
-	
-	
+
+
 elseif raise_a_floppa then
 	_G.RedGUI = false
 	_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
 	--Themes: Light, Dark, Mocha, Aqua and Jester
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
-	
-	
+
+
 elseif Goal_Kick_Simulator then
 	loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
-	
-	
+
+
 elseif Alo_Sanctuary then
 	loadstring(game:HttpGet"https://pastebin.com/raw/BHYs12fD")()
-	
-	
+
+
 elseif Build_to_survive then
 	loadstring(game:HttpGet"https://github.com/dfgvbbt/another/raw/main/Fun%20admin")()
-	
-	
+
+
 elseif Ro_Ghoul then
 	loadstring(game:HttpGetAsync(("https://gist.githubusercontent.com/z4gs/5b71b8d430eb3582f895dfcfafc1fbfc/raw/db85b2a57a5368a789ec0772cad6233a99535823/Ro-Ghoul")))()
-	
-	
+
+
 elseif Sonic_Speed_Simulator then
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: This script have advertisement (https://panda-project.tk/) and was coppy!", Color = Color3.new(0, 191, 255), TextSize = 18, }) wait(0.02) setclipboard("https://panda-project.tk/")
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
 
-	
+
 elseif Clarks_CICAVERSE_Event then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/clarks"))()
-end
+
 
 elseif Critical_Legends then
 	loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
-end
+
 
 elseif Apeirophobia then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/ape'))()
-end
+
 elseif Driving_Simulator then
 	loadstring(game:HttpGet("https://pastebin.com/raw/NHXHxHzY", true))()
-end
+
 
 elseif Parkour then
 	getgenv().enabled = true
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/Parkour-Bag-ESP/master/source.lua"))()
-end
 
 elseif Car_Crash_Test then
 	setclipboard(loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Car%20Crash%20Test"))())
-	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Was coppy script, please execute this from your exploiter!", Color = Color3.new(0, 191, 255), TextSize = 18, }
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Was coppy script, please execute this from your exploiter!", Color = Color3.new(0, 191, 255), TextSize = 18, })
 end
 -- Another :)
-wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Scripts workking!", Color = Color3.new(0, 191, 255), TextSize = 18, })
+wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
