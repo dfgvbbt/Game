@@ -65,6 +65,8 @@ elseif PlaceId == 7720943627 then
 	Car_Crash_Test = true
 elseif PlaceId == 7056117669 then
 	get_chased_by_a_rocket = true
+elseif PlaceId == 5032892136 then
+	An_Infinite_Road_Trip = true
 else
 	--do if game not in the list
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ('Game {'..game.Name..'} / Id {'..game.PlaceId..',Version = '..game.PlaceVersion..'}. Is no script in list now!'), Color = Color3.new(255, 255, 255), TextSize = 18, })
@@ -200,6 +202,9 @@ elseif get_chased_by_a_rocket then
 	game.Players.LocalPlayer.PlayerScripts.ButtonCooldown:Destroy()
 	game.Players.LocalPlayer.PlayerScripts.MaxRockets:Destroy()
 	wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script}: Removed The Cooldown Hide Call Button!', Color = Color3.new(0, 191, 255), TextSize = 18, })
+elseif An_Infinite_Road_Trip then
+	game.Players.LocalPlayer.PlayerScripts.antiNoclip:Destroy()
+	wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script}: Removed The Anti Cheat Noclip+Speed!', Color = Color3.new(0, 191, 255), TextSize = 18, })
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
