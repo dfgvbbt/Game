@@ -129,11 +129,11 @@ elseif Military_Tycoon then
 
 
 elseif Bridge_Worm then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Bridge%20worm"))()
+	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/Not%20My%20Script/Roblox/Exploit/Game/Bridge%20worm"))()
 
 
 elseif Millionaire_Empire_Tycoon then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Millionaire%20Empire%20Tycoon"))()
+	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/Not%20My%20Script/Roblox/Exploit/Game/Millionaire%20Empire%20Tycoon"))()
 
 
 elseif Build_and_Survive then
@@ -164,7 +164,7 @@ elseif Alo_Sanctuary then
 
 
 elseif Build_to_survive then
-	loadstring(game:HttpGet"https://github.com/dfgvbbt/another/raw/main/Fun%20admin")()
+	--(Deleted)
 
 
 elseif Ro_Ghoul then
