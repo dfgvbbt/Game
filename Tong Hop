@@ -209,7 +209,7 @@ elseif An_Infinite_Road_Trip then
 	wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script}: Removed The Anti Cheat Noclip+Speed!', Color = Color3.new(0, 191, 255), TextSize = 18, })
 elseif Rainbow_Friends then
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script,RF}: Auto Pick Up Items Fast,Make Sure You In-Game And Execute Before The Game Starting!', Color = Color3.new(0, 191, 255), TextSize = 18, })
-	loadstring(game:HttpGet('https://github.com/dfgvbbt/another/raw/main/Rainbow%20Friends'))()
+	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/Rainbow%20Friends"))()
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
