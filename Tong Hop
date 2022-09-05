@@ -67,6 +67,8 @@ elseif PlaceId == 7056117669 then
 	get_chased_by_a_rocket = true
 elseif PlaceId == 5032892136 then
 	An_Infinite_Road_Trip = true
+elseif PlaceId == 7991339063 or PlaceId == 8888615802 then
+	Rainbow_Friends = true
 else
 	--do if game not in the list
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ('Game {'..game.Name..'} / Id {'..game.PlaceId..',Version = '..game.PlaceVersion..'}. Is no script in list now!'), Color = Color3.new(255, 255, 255), TextSize = 18, })
@@ -205,6 +207,9 @@ elseif get_chased_by_a_rocket then
 elseif An_Infinite_Road_Trip then
 	game.Players.LocalPlayer.PlayerScripts.antiNoclip:Destroy()
 	wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script}: Removed The Anti Cheat Noclip+Speed!', Color = Color3.new(0, 191, 255), TextSize = 18, })
+elseif Rainbow_Friends then
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script,RF}: Auto Pick Up Items Fast,Make Sure You In-Game And Execute Before The Game Starting!', Color = Color3.new(0, 191, 255), TextSize = 18, })
+	loadstring(game:HttpGet('https://github.com/dfgvbbt/another/raw/main/Rainbow%20Friends'))()
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
