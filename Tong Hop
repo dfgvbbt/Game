@@ -201,8 +201,7 @@ elseif Car_Crash_Test then
 	setclipboard(loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Car%20Crash%20Test"))())
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "[Script List]: Was coppy script, please execute this from your exploiter!", Color = Color3.new(0, 191, 255), TextSize = 18, })
 elseif get_chased_by_a_rocket then
-	game.Players.LocalPlayer.PlayerScripts.ButtonCooldown:Destroy()
-	game.Players.LocalPlayer.PlayerScripts.MaxRockets:Destroy()
+	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/get%20chased%20by%20a%20rocket"))()
 	wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script}: Removed The Cooldown Hide Call Button!', Color = Color3.new(0, 191, 255), TextSize = 18, })
 elseif An_Infinite_Road_Trip then
 	game.Players.LocalPlayer.PlayerScripts.antiNoclip:Destroy()
