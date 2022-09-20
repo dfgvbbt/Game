@@ -69,6 +69,8 @@ elseif PlaceId == 5032892136 then
 	An_Infinite_Road_Trip = true
 elseif PlaceId == 7991339063 or PlaceId == 8888615802 then
 	Rainbow_Friends = true
+elseif PlaceId == 9648883891 then
+	Festival_Tycoon = true
 else
 	--do if game not in the list
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ('Game {'..game.Name..'} / Id {'..game.PlaceId..',Version = '..game.PlaceVersion..'}. Is no script in list now!'), Color = Color3.new(255, 255, 255), TextSize = 18, })
@@ -206,9 +208,27 @@ elseif get_chased_by_a_rocket then
 elseif An_Infinite_Road_Trip then
 	game.Players.LocalPlayer.PlayerScripts.antiNoclip:Destroy()
 	wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script}: Removed The Anti Cheat Noclip+Speed!', Color = Color3.new(0, 191, 255), TextSize = 18, })
+
 elseif Rainbow_Friends then
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = '{Script,RF}: Auto Pick Up Items Fast,Make Sure You In-Game And Execute Before The Game Starting!', Color = Color3.new(0, 191, 255), TextSize = 18, })
 	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/Rainbow%20Friends"))()
+
+elseif Festival_Tycoon then
+	-- Badge: You Got Neon Gasmask! Item: 10787160614 Neon Gas Mask - The Chainsmokers
+	game:GetService("ReplicatedStorage").RemoteObjects.ClaimMainStageChallenge:FireServer()
+	-- Badge: You got Neon Swords!
+	-- Item: 10787163819; Sword Pack - The Chainsmokers
+	game:GetService("ReplicatedStorage").RemoteObjects.IncrementBeachCash:FireServer(10000000000)
+	-- Badge: You got Neon Shades!
+	-- Item: 10787157603; Purple Shades - The Chainsmokers
+	game:GetService("ReplicatedStorage").RemoteObjects.DanceGameCash:FireServer(10000000000)
+	task.wait(2)
+	local ILoveShittyYoutubers_TakingCreditForMyScripts = game:GetService("ReplicatedStorage").RemoteObjects.RequestButtonPurchase
+	for IDoN0t, isLikingCrossdresserGay in ipairs(game:GetService("Workspace").Buttons:GetChildren()) do
+    	for V3rmillion, i_feel_like_it_is_but_idk in ipairs(isLikingCrossdresserGay:GetChildren()) do
+        	ILoveShittyYoutubers_TakingCreditForMyScripts:FireServer(i_feel_like_it_is_but_idk.Name)
+    	end
+end
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
