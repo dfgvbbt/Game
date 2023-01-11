@@ -81,8 +81,7 @@ end
 --Script list
 
 if Pet_X then
-	loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/MUKUROHUB/main/psxMukuro.lua")()
-
+	loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
 
 elseif King_Legacy then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua"))()
