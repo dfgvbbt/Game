@@ -71,6 +71,8 @@ elseif PlaceId == 7991339063 or PlaceId == 8888615802 then
 	Rainbow_Friends = true
 elseif PlaceId == 9648883891 then
 	Festival_Tycoon = true
+elseif PlaceId == 10914683361 then
+	Busy_Business = true
 else
 	--do if game not in the list
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ('Game {'..game.Name..'} / Id {'..game.PlaceId..',Version = '..game.PlaceVersion..'}. Is no script in list now!'), Color = Color3.new(255, 255, 255), TextSize = 18, })
@@ -214,6 +216,8 @@ elseif Rainbow_Friends then
 
 elseif Festival_Tycoon then
 	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/Not%20My%20Script/Roblox/Exploit/Game/Festival%20Tycoon"))()
+elseif Busy_Business then
+	loadstring(game:HttpGet("https://pastebin.com/raw/r8pwa4Fq"))()
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
