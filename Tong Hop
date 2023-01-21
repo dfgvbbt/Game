@@ -217,7 +217,7 @@ elseif Rainbow_Friends then
 elseif Festival_Tycoon then
 	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/Not%20My%20Script/Roblox/Exploit/Game/Festival%20Tycoon"))()
 elseif Busy_Business then
-	loadstring(game:HttpGet("https://pastebin.com/raw/r8pwa4Fq"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZKVcWnmK"))()
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
