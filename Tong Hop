@@ -75,6 +75,8 @@ elseif PlaceId == 10914683361 then
 	Busy_Business = true
 elseif PlaceId == 7887127407 then
 	Choo_Choo_Charles_Tycoon = true
+elseif PlaceId == 986331525 then
+	Nuke_Site = true
 else
 	--do if game not in the list
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ('Game {'..game.Name..'} / Id {'..game.PlaceId..',Version = '..game.PlaceVersion..'}. Is no script in list now!'), Color = Color3.new(255, 255, 255), TextSize = 18, })
@@ -223,6 +225,10 @@ elseif Busy_Business then
 	
 elseif Choo_Choo_Charles_Tycoon then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/dfgvbbt/another/main/Choo%20Choo%20Charles%20Tycoon.lua"))()
+
+elseif Nuke_Site then
+	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/Nuke%20Site"))()
+	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "Auto collect!", Color = Color3.new(0, 100, 255), TextSize = 18, })
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
