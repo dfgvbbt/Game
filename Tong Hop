@@ -77,6 +77,8 @@ elseif PlaceId == 7887127407 then
 	Choo_Choo_Charles_Tycoon = true
 elseif PlaceId == 986331525 then
 	Nuke_Site = true
+elseif PlaceId == 142823291 then
+	MM2 = true
 else
 	--do if game not in the list
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = ('Game {'..game.Name..'} / Id {'..game.PlaceId..',Version = '..game.PlaceVersion..'}. Is no script in list now!'), Color = Color3.new(255, 255, 255), TextSize = 18, })
@@ -229,6 +231,9 @@ elseif Choo_Choo_Charles_Tycoon then
 elseif Nuke_Site then
 	loadstring(game:HttpGet("https://github.com/dfgvbbt/another/raw/main/Nuke%20Site"))()
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "Auto collect!", Color = Color3.new(0, 100, 255), TextSize = 18, })
+	
+elseif MM2 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
 end
 -- Another :)
 wait() game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "amogus", Color = Color3.new(0, 191, 255), TextSize = 18, })
