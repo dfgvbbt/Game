@@ -233,6 +233,7 @@ elseif Nuke_Site then
 	game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text = "Auto collect!", Color = Color3.new(0, 100, 255), TextSize = 18, })
 	
 elseif MM2 then
+	getgenv().setclipboard = function() end
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
 end
 -- Another :)
